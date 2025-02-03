@@ -39,6 +39,10 @@ padding: 15px 20px;
 font-size: 16px;
 }
 
+button {
+    cursor: pointer;
+    }
+
 main{
     background-color: #f9f7fe;
     border: none;
@@ -78,7 +82,8 @@ margin: 50px 0 50px 0;
 }
 
 .weather-app-icon{
-    font-size: 50px;
+    width: 90px;
+    height: 90px;
     margin-top: 18px;
 }
 
