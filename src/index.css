@@ -3,10 +3,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-a{
+a {
     color: #885df1;
 }
-.weather-app{
+.weather-app {
     background: white;
     max-width: 600px;
     margin: 45px auto;
@@ -15,12 +15,12 @@ a{
     padding: 30px;
 }
 
-h1{
+h1 {
     border-bottom: 1px solid #f9f7fe;
     padding: 0 0 30px 0;
 }
 
-.search-form-input{
+.search-form-input {
 background-color: #f9f7fe;
 font-size: 16px;
 border: none;
@@ -29,7 +29,7 @@ width: 75%;
 padding: 15px 20px; 
 }
     
-.search-form-button{
+.search-form-button {
     background-color: #885df1;
     padding: 15px 30px;
     border: none;
@@ -43,7 +43,7 @@ button {
     cursor: pointer;
     }
 
-main{
+main {
     background-color: #f9f7fe;
     border: none;
 border-radius: 6px;
@@ -51,12 +51,12 @@ padding: 15px 20px;
 margin: 50px 0 50px 0;
 }
 
-.weather-app-data{
+.weather-app-data {
     display: flex;
     justify-content: space-between;
 }
 
-.weather-app-city{
+.weather-app-city {
    border-bottom: 1px solid #f9f7fe;
     padding: 0 0 0 0;
     font-size: 38px; 
@@ -64,32 +64,61 @@ margin: 50px 0 50px 0;
     margin: 0;
 }
 
-.weather-app-details{
+.weather-app-details {
     font-size: 16px;
     line-height: 20px;
 }
-.weather-app-details strong{
+.weather-app-details strong {
     color: rgb(196, 39, 99)
 }
 
-.weather-app-temperature-container{
+.weather-app-temperature-container {
     display: flex;
 }
 
-.weather-app-temperature{
+.weather-app-temperature {
     font-size: 88px;
     font-weight: bold;
 }
 
-.weather-app-icon{
+.weather-app-icon {
     width: 90px;
     height: 90px;
     margin-top: 18px;
 }
 
-.weather-app-unit{
+.weather-app-unit {
     margin-top: 16px;
     font-size: 28px;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+}
+.weather-forecast-date {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.weather-forecast-icon {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.weather-forecast-temperatures {
+    text-align: center;
+    color: rgb(196, 39, 99);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-forecast-temperature {
+    padding: 0 10px;
 }
 footer{
     border-top: 1px solid #f9f7fe;
