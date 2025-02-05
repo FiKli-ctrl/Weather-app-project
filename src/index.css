@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(187, 228, 233, 0.5);
+    background-color: rgba(187, 228, 233, 0.4);
     font-family: "Roboto", sans-serif;
 }
 
@@ -16,12 +16,12 @@ a {
 }
 
 h1 {
-    border-bottom: 1px solid rgba(187, 228, 233, 0.5);
+    border-bottom: 1px solid rgba(187, 228, 233, 0.4);
     padding: 0 0 30px 0;
 }
 
 .search-form-input {
-background-color: rgba(187, 228, 233, 0.5);
+background-color: rgba(187, 228, 233, 0.4);
 font-size: 16px;
 border: none;
 border-radius: 6px;
@@ -44,7 +44,7 @@ button {
     }
 
 main {
-    background-color: rgba(187, 228, 233, 0.5);
+    background-color: rgba(187, 228, 233, 0.4);
     border: none;
 border-radius: 6px;
 padding: 15px 20px; 
@@ -123,7 +123,7 @@ margin: 50px 0 50px 0;
     padding: 0 10px;
 }
 footer{
-    border-top: 1px solid rgba(187, 228, 233, 0.5);
+    border-top: 1px solid rgba(187, 228, 233, 0.4);
     padding: 30px 0 0 0;
     text-align: center;
     font-size: 12px;
