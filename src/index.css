@@ -95,6 +95,7 @@ margin: 50px 0 50px 0;
 .weather-forecast {
     display: flex;
     justify-content: space-around;
+
 }
 .weather-forecast-date {
     text-align: center;
@@ -104,9 +105,10 @@ margin: 50px 0 50px 0;
 }
 
 .weather-forecast-icon {
-    text-align: center;
-    font-size: 38px;
-    margin-bottom: 10px;
+    width: 85px;
+    height: 85px;
+    display: block;
+    margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
